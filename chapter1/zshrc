@@ -1,0 +1,17 @@
+# Path to your oh-my-zsh installation. export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME='agnoster'
+
+plugins=( 
+    git
+    osx
+    autojump
+    scala
+    python
+    pip
+    github
+    gnu-utils zsh-syntax-highlighting history-substring-search colored-man-pages
+)
+
+source $ZSH/oh-my-zsh.sh
+source $(brew --prefix autoenv)/activate.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax- highlighting.zsh
