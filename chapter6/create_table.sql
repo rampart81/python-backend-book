@@ -16,7 +16,7 @@ CREATE TABLE users_follow_list(
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, 
     PRIMARY KEY (user_id, follow_user_id),
     CONSTRAINT users_follow_list_user_id_fkey FOREIGN KEY (user_id) REFERENCES users(id), 
-    CONSTRAINT users_follow_list_follow_user_id_fkey FOREIGN KEY (follow_ user_id) REFERENCES users(id)
+    CONSTRAINT users_follow_list_follow_user_id_fkey FOREIGN KEY (follow_user_id) REFERENCES users(id)
 );
 
 CREATE TABLE tweets(
