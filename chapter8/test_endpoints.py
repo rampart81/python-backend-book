@@ -163,7 +163,7 @@ def test_follow(api):
     # follow 유저 아이디 = 2
     resp  = api.post(
         '/follow',
-        data         = json.dumps({'follow' : 2}),
+        data         = json.dumps({'id': 1,'follow' : 2}),
         content_type = 'application/json',
         headers      = {'Authorization' : access_token}
     )
@@ -197,7 +197,7 @@ def test_unfollow(api):
     # follow 유저 아이디 = 2
     resp  = api.post(
         '/follow',
-        data         = json.dumps({'follow' : 2}),
+        data         = json.dumps({'id: 1,'follow' : 2}),
         content_type = 'application/json',
         headers      = {'Authorization' : access_token}
     )
@@ -221,7 +221,7 @@ def test_unfollow(api):
     # unfollow 유저 아이디 = 2
     resp  = api.post(
         '/unfollow',
-        data         = json.dumps({'unfollow' : 2}),
+        data         = json.dumps({'id': 1,'unfollow' : 2}),
         content_type = 'application/json',
         headers      = {'Authorization' : access_token}
     )
