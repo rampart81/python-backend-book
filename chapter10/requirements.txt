@@ -21,4 +21,4 @@ PyJWT==1.7.0
 pytest==4.0.1
 six==1.11.0
 SQLAlchemy==1.2.14
-Werkzeug==0.14.1
+Werkzeug==0.15.3
