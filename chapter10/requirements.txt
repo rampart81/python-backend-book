@@ -5,7 +5,7 @@ bcrypt==3.1.4
 certifi==2018.8.24
 cffi==1.11.5
 click==6.7
-cryptography==2.4.2
+cryptography==3.2
 Flask==1.0.2
 idna==2.8
 itsdangerous==0.24
