@@ -1,5 +1,5 @@
 aiofiles==0.4.0
-aiohttp==3.3.2
+aiohttp==3.7.4
 aniso8601==3.0.2
 app==0.0.1
 asn1crypto==0.24.0
