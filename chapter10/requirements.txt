@@ -9,7 +9,7 @@ cryptography==2.4.2
 Flask==1.0.2
 idna==2.8
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 more-itertools==4.3.0
 mysql-connector-python==8.0.13
