@@ -15,7 +15,7 @@ more-itertools==4.3.0
 mysql-connector-python==8.0.13
 pluggy==0.8.0
 protobuf==3.6.1
-py==1.7.0
+py==1.10.0
 pycparser==2.19
 PyJWT==1.7.0
 pytest==4.0.1
