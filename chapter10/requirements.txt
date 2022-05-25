@@ -17,7 +17,7 @@ pluggy==0.8.0
 protobuf==3.6.1
 py==1.7.0
 pycparser==2.19
-PyJWT==1.7.0
+PyJWT==2.4.0
 pytest==4.0.1
 six==1.11.0
 SQLAlchemy==1.2.14
